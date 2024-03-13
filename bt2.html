@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title> Form đóng góp ý kiến </title>
+    <link rel="stylesheet" href="bt2.css">
+</head>
+
+<body>
+
+<form action="submit.php" method="post">
+    <h1>ĐÓNG GÓP Ý KIẾN VỀ SẢN PHẨM</h1>
+    <p>Góp ý của bạn sẽ được chúng tôi xem xét, vui lòng nhập tiếng việt có dấu.</p>
+    <p>Các ý kiến đóng góp nên viết chi tiết rõ ràng, kèm theo các minh chứng xác thực thời gian và địa điểm <i>(nếu có)</i>.</p>
+</br>
+
+    <div class="form-group">
+        <label for="fullname">Họ và tên:</label>
+        <input type="text" id="fullname" placeholder="fullname" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="phone">Điện thoại:</label>
+        <input type="text" id="phone" placeholder="phone" required>
+    </div>
+   
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="email" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="customer_type">Chọn loại khách hàng:</label>
+        <select id="customer_type" placeholder="customer_type">
+            <option value="">-- Chọn --</option>
+            <option value="1">Khách hàng cá nhân</option>
+            <option value="2">Doanh nghiệp</option>
+        </select>
+    
+    </div>
+    
+    <div class="form-group">
+        <label for="product_code">Mã sản phẩm:</label>
+        <input type="text" id="product_code" placeholder="product_code" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="content">Nội dung góp ý:</label>
+        <textarea id="content" rows="5" required></textarea>
+    </div>
+    
+    <input type="submit" value="GỬI GÓP Ý">
+      
+
+    <script src="bt2.js"></script>
+
+  </form>
+
+</body>
+</html>

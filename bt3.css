@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  #top-color-splash {
+    width: 100%;
+    height: 4px;
+    background: #F24C40;
+  }
+  
+  
+  #contact {
+    background-color: #f5f5f5;
+    padding: 30px;
+  }
+  
+  
+  #contact h1,
+  #contact h2,
+  #contact h3 {
+    text-align: left;
+    font-weight: bold; 
+    color: #333;
+  }
+  
+  #contact h1 {
+    font-size: 30px; 
+    color: blue 
+  }
+  
+  #contact h2 {
+    font-size: 26px; 
+   
+
+  }
+  
+  #contact h3 {
+    font-size: 22px; 
+    color: blue 
+  }
+  
+  
+  #contact p {
+    text-align: left;
+    font-size: 20px;
+    color: #828282;
+  }
+  
+ 
+  .contact-content {
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  .contact-info,
+  .contact-form {
+    flex: 1;
+  }
+  
+  /* Info section with minor margin adjustment */
+  .info {
+    margin-bottom: 15px;
+  }
+  
+  /* Font Awesome icons */
+  .fa {
+    font-family: "Font Awesome 5 Free";
+    font-size: 18px; /* Increase icon size slightly */
+    margin-right: 10px;
+  }
+  
+  /* Contact form styles */
+  #contact form {
+    margin-top: 25px; /* Adjust margin for spacing */
+  }
+  
+  #contact form label {
+    display: block;
+    margin-bottom: 8px; /* Adjust spacing between label and input */
+  }
+  
+  #contact form input,
+  #contact form textarea {
+    width: calc(100% - 12px);
+    padding: 10px; /* Increase input padding for better readability */
+    border: 1px solid #ccc;
+    margin-bottom: 15px; /* Adjust spacing between form elements */
+  }
+  
+  #contact form button {
+    background-color: #4CAF50; /* Green color for button */
+    color: #fff;
+    padding: 10px 20px; /* Increase button padding */
+    border: none;
+    cursor: pointer;
+    font-size: 16px; /* Increase button font size */
+  }
+  
+  #contact form button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+  }
+  
+  /* Error class for styling validation errors (if needed) */
+  .error {
+    border-color: red;
+  }
+  
